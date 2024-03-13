@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+
+    <div id="top">
+        <h1>Calculadora</h1>
+    </div>
+
+    <div id="container">
+        <div class="contas" id="add">
+            Adição
+        </div>
+        <div class="contas" id="sub">
+            Subtração
+        </div>
+        <div class="contas" id="multi">
+            Multiplicação
+        </div>
+        <div class="contas" id="divi">
+            Divisão
+        </div>
+    </div>
+
+
+    <form id="calculator">
+        <input type="number" id="value1" placeholder="Valor 1">
+    <select id="operator">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input type="number" id="value2" placeholder="Valor 2">
+    <button type="button" id="calculate">Calcular</button>
+    <input type="number" id="result" readonly>
+    </form>
+
+
+    <div id="bottom-page">© Ruan Carlos - 2023</div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+

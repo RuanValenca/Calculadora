@@ -1,0 +1,119 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #031b5eec;
+}
+
+#top{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #099274; 
+    background-color: #fff6eb;
+    border-radius: 30px;
+    width: 610px;
+    height: 160px;
+    
+}
+
+#container{
+    left: 380px;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 50px 50px;
+    margin-top: 50px;
+    width: 350px;
+}
+
+.contas{
+    font-weight: 700;
+    color: #099274;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: #fff6eb;
+}
+
+form{
+    top: 50px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+}
+
+#calculator {
+    height: 40px;
+    width: 750px;
+    background-color: #099274;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#calculator input[type="number"] {
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #099274;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#calculator select {
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90px;
+    padding: 5px;
+    border: 1px solid #fff6eb;
+    border-radius: 5px;
+}
+
+#calculator button {
+    background-color: #031b5eec;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#calculator button:hover {
+    transform: scale(1.1);
+}
+
+#calculator #result {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: right;
+}
+
+#bottom-page {
+    font-size: large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
